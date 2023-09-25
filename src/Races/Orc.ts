@@ -10,7 +10,7 @@ class Orc extends Race {
   }
 
   static override createdRacesInstances(): number {
-    return this._createdInstance;
+    return Orc._createdInstance;
   }
 
   get maxLifePoints(): number {

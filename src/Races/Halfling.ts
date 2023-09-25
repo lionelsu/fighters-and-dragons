@@ -10,7 +10,7 @@ class Halfling extends Race {
   }
 
   static override createdRacesInstances(): number {
-    return this._createdInstance;
+    return Halfling._createdInstance;
   }
 
   get maxLifePoints(): number {

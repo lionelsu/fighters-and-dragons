@@ -10,7 +10,7 @@ class Elf extends Race {
   }
 
   static override createdRacesInstances(): number {
-    return this._createdInstance;
+    return Elf._createdInstance;
   }
 
   get maxLifePoints(): number {

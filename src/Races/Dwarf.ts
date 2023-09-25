@@ -10,7 +10,7 @@ class Dwarf extends Race {
   }
 
   static override createdRacesInstances(): number {
-    return this._createdInstances;
+    return Dwarf._createdInstances;
   }
 
   get maxLifePoints(): number {
